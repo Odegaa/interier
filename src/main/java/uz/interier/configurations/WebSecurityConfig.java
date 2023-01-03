@@ -37,22 +37,22 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 User.builder()
                         .username("admin")
                         .password(passwordEncoder().encode("admin"))
-                        .authorities(Roles.ADMIN.getAuthorities())
+                        .roles(Roles.ADMIN.name())
                         .build(),
                 User.builder()
                         .username("user")
                         .password(passwordEncoder().encode("user"))
-                        .authorities(Roles.USER.getAuthorities())
+                        .roles(Roles.USER.name())
                         .build(),
                 User.builder()
                         .username("company_admin")
                         .password(passwordEncoder().encode("company_admin"))
-                        .authorities(Roles.COMPANY_ADMIN.getAuthorities())
+                        .roles(Roles.COMPANY_ADMIN.name())
                         .build(),
                 User.builder()
                         .username("director")
-                        .password(passwordEncoder().encode("user"))
-                        .authorities(Roles.DIRECTOR.getAuthorities())
+                        .password(passwordEncoder().encode("director"))
+                        .roles(Roles.DIRECTOR.name())
                         .build()
         );
     }

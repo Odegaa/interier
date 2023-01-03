@@ -33,31 +33,26 @@ public class UserController {
     }
 
     @GetMapping
-    @PreAuthorize(value = "hasAuthority('read')")
     public ResponseEntity<List<User>> getAllUsers() {
         return ResponseEntity.ok(service.getAllUsers());
     }
 
     @GetMapping("/{userId}")
-    @PreAuthorize(value = "hasAuthority('read')")
     public ResponseEntity<User> getUserById(@PathVariable Long userId) {
         return ResponseEntity.ok(service.getUserById(userId));
     }
 
     @GetMapping("/{userFirstName}")
-    @PreAuthorize(value = "hasAuthority('read')")
     public ResponseEntity<User> getUserByFirstName(@PathVariable String userFirstName) {
         return ResponseEntity.ok(service.getUserByFirstName(userFirstName));
     }
 
     @GetMapping("/{userLastName}")
-    @PreAuthorize(value = "hasAuthority('read')")
     public ResponseEntity<User> getUserByLastName(@PathVariable String userLastName) {
         return ResponseEntity.ok(service.getUserByLastName(userLastName));
     }
 
     @PutMapping("/{userId}")
-    @PreAuthorize(value = "hasAuthority('write')")
     public HttpEntity<?> updateUser(@PathVariable Long userId,
                                     @Valid @RequestBody UserDto userDto) {
         ApiResponse apiResponse = service.updateUserById(userId, userDto);
@@ -66,7 +61,6 @@ public class UserController {
     }
 
     @DeleteMapping("/{userId}")
-    @PreAuthorize(value = "hasAuthority('write')")
     public HttpEntity<?> deleteUser(@PathVariable Long userId) {
         ApiResponse apiResponse = service.deleteUser(userId);
         return ResponseEntity.status(apiResponse.getStatus() ?

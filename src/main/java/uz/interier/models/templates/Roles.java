@@ -5,5 +5,4 @@ public enum Roles {
     COMPANY_ADMIN,
     ADMIN,
     DIRECTOR
-
 }
