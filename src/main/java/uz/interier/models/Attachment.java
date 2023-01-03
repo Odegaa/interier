@@ -1,6 +1,6 @@
-package com.example.webservice.models;
+package uz.interier.models;
 
-import com.example.webservice.models.base.BaseEntity;
+import uz.interier.models.base.BaseEntity;
 import lombok.*;
 
 import javax.persistence.Column;

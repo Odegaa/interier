@@ -1,4 +1,4 @@
-package com.example.webservice.models.templates;
+package uz.interier.models.templates;
 
 public enum Roles {
     USER,

@@ -1,6 +1,6 @@
-package com.example.webservice.models.base;
+package uz.interier.models.base;
 
-import com.example.webservice.models.templates.Status;
+import uz.interier.models.templates.Status;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

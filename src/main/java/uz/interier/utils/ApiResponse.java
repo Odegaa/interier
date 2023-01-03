@@ -1,4 +1,4 @@
-package com.example.webservice.utils;
+package uz.interier.utils;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

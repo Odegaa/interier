@@ -1,7 +1,7 @@
-package com.example.webservice.services;
+package uz.interier.services;
 
-import com.example.webservice.models.Card;
-import com.example.webservice.utils.ApiResponse;
+import uz.interier.models.Card;
+import uz.interier.utils.ApiResponse;
 
 import java.util.List;
 

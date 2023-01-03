@@ -1,10 +1,10 @@
-package com.example.webservice.services.impls;
+package uz.interier.services.impls;
 
-import com.example.webservice.models.Category;
-import com.example.webservice.models.templates.Status;
-import com.example.webservice.repositories.CategoryRepository;
-import com.example.webservice.services.CategoryService;
-import com.example.webservice.utils.ApiResponse;
+import uz.interier.models.Category;
+import uz.interier.models.templates.Status;
+import uz.interier.repositories.CategoryRepository;
+import uz.interier.services.CategoryService;
+import uz.interier.utils.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

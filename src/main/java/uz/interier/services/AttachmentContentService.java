@@ -1,6 +1,6 @@
-package com.example.webservice.services;
+package uz.interier.services;
 
-import com.example.webservice.utils.ApiResponse;
+import uz.interier.utils.ApiResponse;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 import javax.servlet.http.HttpServletResponse;

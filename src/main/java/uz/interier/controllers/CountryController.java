@@ -1,8 +1,8 @@
-package com.example.webservice.controllers;
+package uz.interier.controllers;
 
-import com.example.webservice.models.Country;
-import com.example.webservice.services.CountryService;
-import com.example.webservice.utils.ApiResponse;
+import uz.interier.models.Country;
+import uz.interier.services.CountryService;
+import uz.interier.utils.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;

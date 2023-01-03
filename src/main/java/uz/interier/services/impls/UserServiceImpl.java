@@ -1,16 +1,16 @@
-package com.example.webservice.services.impls;
+package uz.interier.services.impls;
 
-import com.example.webservice.models.Address;
-import com.example.webservice.models.Card;
-import com.example.webservice.models.User;
-import com.example.webservice.models.templates.Roles;
-import com.example.webservice.models.templates.Status;
-import com.example.webservice.payloads.UserDto;
-import com.example.webservice.repositories.AddressRepository;
-import com.example.webservice.repositories.CardRepository;
-import com.example.webservice.repositories.UserRepository;
-import com.example.webservice.services.UserService;
-import com.example.webservice.utils.ApiResponse;
+import uz.interier.models.Address;
+import uz.interier.models.Card;
+import uz.interier.models.User;
+import uz.interier.models.templates.Roles;
+import uz.interier.models.templates.Status;
+import uz.interier.payloads.UserDto;
+import uz.interier.repositories.AddressRepository;
+import uz.interier.repositories.CardRepository;
+import uz.interier.repositories.UserRepository;
+import uz.interier.services.UserService;
+import uz.interier.utils.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

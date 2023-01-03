@@ -1,9 +1,9 @@
-package com.example.webservice.controllers;
+package uz.interier.controllers;
 
-import com.example.webservice.models.Address;
-import com.example.webservice.payloads.AddressDto;
-import com.example.webservice.services.AddressService;
-import com.example.webservice.utils.ApiResponse;
+import uz.interier.models.Address;
+import uz.interier.payloads.AddressDto;
+import uz.interier.services.AddressService;
+import uz.interier.utils.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;

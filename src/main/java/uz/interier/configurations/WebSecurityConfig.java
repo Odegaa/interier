@@ -1,6 +1,6 @@
-package com.example.webservice.configurations;
+package uz.interier.configurations;
 
-import com.example.webservice.models.templates.Roles;
+import uz.interier.models.templates.Roles;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;

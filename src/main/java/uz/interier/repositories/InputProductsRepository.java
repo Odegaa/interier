@@ -1,6 +1,6 @@
-package com.example.webservice.repositories;
+package uz.interier.repositories;
 
-import com.example.webservice.models.InputProducts;
+import uz.interier.models.InputProducts;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

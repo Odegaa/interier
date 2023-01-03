@@ -1,10 +1,10 @@
-package com.example.webservice.services.impls;
+package uz.interier.services.impls;
 
-import com.example.webservice.models.Country;
-import com.example.webservice.models.templates.Status;
-import com.example.webservice.repositories.CountryRepository;
-import com.example.webservice.services.CountryService;
-import com.example.webservice.utils.ApiResponse;
+import uz.interier.models.Country;
+import uz.interier.models.templates.Status;
+import uz.interier.repositories.CountryRepository;
+import uz.interier.services.CountryService;
+import uz.interier.utils.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

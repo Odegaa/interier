@@ -1,8 +1,8 @@
-package com.example.webservice.models;
+package uz.interier.models;
 
-import com.example.webservice.models.base.BaseEntity;
-import com.example.webservice.models.templates.Roles;
-import com.example.webservice.models.templates.Status;
+import uz.interier.models.base.BaseEntity;
+import uz.interier.models.templates.Roles;
+import uz.interier.models.templates.Status;
 import lombok.*;
 
 import javax.persistence.*;

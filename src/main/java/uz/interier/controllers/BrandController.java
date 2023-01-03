@@ -1,9 +1,9 @@
-package com.example.webservice.controllers;
+package uz.interier.controllers;
 
-import com.example.webservice.models.Brand;
-import com.example.webservice.payloads.BrandDto;
-import com.example.webservice.services.BrandService;
-import com.example.webservice.utils.ApiResponse;
+import uz.interier.models.Brand;
+import uz.interier.payloads.BrandDto;
+import uz.interier.services.BrandService;
+import uz.interier.utils.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;

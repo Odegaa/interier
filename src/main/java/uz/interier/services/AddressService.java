@@ -1,8 +1,8 @@
-package com.example.webservice.services;
+package uz.interier.services;
 
-import com.example.webservice.models.Address;
-import com.example.webservice.payloads.AddressDto;
-import com.example.webservice.utils.ApiResponse;
+import uz.interier.models.Address;
+import uz.interier.payloads.AddressDto;
+import uz.interier.utils.ApiResponse;
 
 import java.util.List;
 

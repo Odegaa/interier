@@ -1,10 +1,10 @@
-package com.example.webservice.services.impls;
+package uz.interier.services.impls;
 
-import com.example.webservice.models.Card;
-import com.example.webservice.models.templates.Status;
-import com.example.webservice.repositories.CardRepository;
-import com.example.webservice.services.CardService;
-import com.example.webservice.utils.ApiResponse;
+import uz.interier.models.Card;
+import uz.interier.models.templates.Status;
+import uz.interier.repositories.CardRepository;
+import uz.interier.services.CardService;
+import uz.interier.utils.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,13 +1,13 @@
-package com.example.webservice.services.impls;
+package uz.interier.services.impls;
 
-import com.example.webservice.models.Company;
-import com.example.webservice.payloads.CompanyDto;
-import com.example.webservice.repositories.AddressRepository;
-import com.example.webservice.repositories.AttachmentRepository;
-import com.example.webservice.repositories.CompanyRepository;
-import com.example.webservice.repositories.ProductRepository;
-import com.example.webservice.services.CompanyService;
-import com.example.webservice.utils.ApiResponse;
+import uz.interier.models.Company;
+import uz.interier.payloads.CompanyDto;
+import uz.interier.repositories.AddressRepository;
+import uz.interier.repositories.AttachmentRepository;
+import uz.interier.repositories.CompanyRepository;
+import uz.interier.repositories.ProductRepository;
+import uz.interier.services.CompanyService;
+import uz.interier.utils.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

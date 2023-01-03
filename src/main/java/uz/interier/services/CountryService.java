@@ -1,7 +1,7 @@
-package com.example.webservice.services;
+package uz.interier.services;
 
-import com.example.webservice.models.Country;
-import com.example.webservice.utils.ApiResponse;
+import uz.interier.models.Country;
+import uz.interier.utils.ApiResponse;
 
 import java.util.List;
 

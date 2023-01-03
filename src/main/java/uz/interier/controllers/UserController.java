@@ -1,14 +1,13 @@
-package com.example.webservice.controllers;
+package uz.interier.controllers;
 
-import com.example.webservice.models.User;
-import com.example.webservice.payloads.UserDto;
-import com.example.webservice.services.UserService;
-import com.example.webservice.utils.ApiResponse;
+import uz.interier.models.User;
+import uz.interier.payloads.UserDto;
+import uz.interier.services.UserService;
+import uz.interier.utils.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;

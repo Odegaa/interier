@@ -1,10 +1,10 @@
-package com.example.webservice.services.impls;
+package uz.interier.services.impls;
 
-import com.example.webservice.models.Attachment;
-import com.example.webservice.models.templates.Status;
-import com.example.webservice.repositories.AttachmentRepository;
-import com.example.webservice.services.AttachmentService;
-import com.example.webservice.utils.ApiResponse;
+import uz.interier.models.Attachment;
+import uz.interier.models.templates.Status;
+import uz.interier.repositories.AttachmentRepository;
+import uz.interier.services.AttachmentService;
+import uz.interier.utils.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
